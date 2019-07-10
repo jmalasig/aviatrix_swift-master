@@ -10,6 +10,7 @@ import Foundation
 
 class AviatrixData {
     
+    //Dictionary with strings and doubles
     var fuelPrices = [
         "St. Louis" : 1.79,
         "Phoenix" : 1.84,
@@ -17,6 +18,9 @@ class AviatrixData {
         "SLC" : 1.95
     ]
     
+    //miles are Int, destinations are String
+    //Dictionary in a dictionary
+    //Example: key of st. louis has a value of a dictionary
     var knownDistances = [
         "St. Louis" : [
             "St. Louis" : 0,
